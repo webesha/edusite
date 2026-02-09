@@ -1,0 +1,481 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+/* =========================
+   Navbar Styling
+========================= */
+
+.navbar {
+    background-color: skyblue;   /* Bootstrap primary blue */
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdd57 !important;   /* hover color */
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+    color: #ffdd57 !important;
+    font-weight: 600;
+}
+
+/* Navbar toggler (mobile icon) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .bi {
+    font-size: 18px;
+}
+
+.navbar .nav-link:hover .bi {
+    color: #ffdd57;
+}
+
+ .hero {
+    background-image: url("https://img.freepik.com/premium-photo/home-office-desk-laptop-mobile-note-book-pen-dark-blue-background-stylish-wor-generative-ai_874904-63224.jpg"); /* your image path */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+             height: 100vh;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        
+        .btn:hover {
+            background-color: blue;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+       
+        
+        .btn-outline:hover {
+            background-color: rgb(54, 60, 88);
+            color: var(--primary);
+        }
+
+         .features {
+            padding: 80px 0;
+            background-color: rgb(218, 211, 243);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+        }
+        
+        .feature-card {
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-card i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        /* Courses Preview */
+        .courses-preview {
+            padding: 80px 0;
+            background-color: rgb(235, 223, 223);
+
+        }
+        
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .course-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        .course-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .course-img {
+            height: 40px;
+            background-color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+        
+        .course-content {
+            padding: 25px;
+        }
+        
+        .course-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+        
+        .course-content p {
+            color: var(--gray);
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        
+        
+        .course-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--gray);
+            margin-bottom: 15px;
+        }
+    
+    
+    .card {
+  border-radius: 12px;
+  overflow: hidden; /* keeps image inside rounded card */
+  transition: all 0.4s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+/* Fix image height for all cards */
+.card-img-top {
+  height: 350px;          
+  width: 100%;
+  object-fit: cover;     
+  transition: transform 0.4s ease;
+}
+
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+/* ===== Register Section ===== */
+.register-section {
+    background: linear-gradient(135deg, #143668, #204680);
+    padding: 80px 0;
+}
+
+/* ===== Countdown Boxes ===== */
+.time-box {
+    background: #ffffff;
+    padding: 20px 10px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.time-box:hover {
+    transform: translateY(-5px);
+}
+
+.time-box h3 {
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 5px;
+}
+
+.time-box small {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ===== Form Card ===== */
+.register-form {
+    background: #ece7e7;
+    padding: 45px;
+   
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Form Headings ===== */
+.register-form h3 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.register-form p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+/* ===== Inputs ===== */
+.register-form .form-control {
+    height: 55px;
+    border-radius: 10px;
+    padding-left: 50px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+.register-form .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* ===== Input Icons ===== */
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    color: #0d6efd;
+    font-size: 18px;
+}
+
+/* ===== Submit Button ===== */
+.register-form button {
+    height: 55px;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #0a58ca;
+    transform: translateY(-2px);
+}
+
+/* ===== Responsive Fix ===== */
+@media (max-width: 768px) {
+    .register-form {
+        padding: 30px;
+        margin-top: 30px;
+    }
+
+    .time-box {
+        margin-bottom: 15px;
+    }
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+     /* CHANGE FULL PAGE BACKGROUND HERE */
+body {
+    background-color: #f8fafc;
+}
+
+/* CHANGE NAVBAR BACKGROUND COLOR HERE */
+.custom-navbar {
+    background-color: #0f172a; /* dark blue */
+}
+
+/* CHANGE ABOUT SECTION BACKGROUND HERE */
+.about-section {
+    background-color: #ffffff;
+}
+
+/* CHANGE MISSION & VISION BACKGROUND HERE */
+.mission-section {
+    background-color: #e0f2fe; /* soft blue */
+}
+
+/* CHANGE WHY CHOOSE US BACKGROUND HERE */
+.why-us {
+    background-color: #f1f5f9;
+}
+
+/* Quiz Section Background */
+.quiz-section{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f7fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Quiz Box */
+#quiz{
+  background: #ffffff;
+  width: 420px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Question */
+.question{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Remove default list style */
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+/* Option container */
+ul li{
+  margin-bottom: 12px;
+}
+
+/* Hide default radio */
+.answer{
+  display: none;
+}
+
+/* Custom option button */
+label{
+  display: block;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+/* Hover effect */
+label:hover{
+  background: #e7f0ff;
+  border-color: #0d6efd;
+}
+
+/* Selected option */
+.answer:checked + label{
+  background: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+/* Submit button */
+.btn{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#submit{
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+ 
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Submit hover */
+#submit:hover{
+  background: #084298;
+  transform: scale(1.05);
+}
+
+.get-in-touch {
+    min-height: 350px;
+    background-image: linear-gradient( rgba(6, 50, 117, 0.75), rgba(21, 23, 26, 0.75)), url("https://static.vecteezy.com/system/resources/thumbnails/004/340/169/small/contact-symbols-in-the-laptop-keyboard-free-photo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-animation h1 {
+    animation: slideFade 1.2s ease-out forwards;
+}
+
+.text-animation p {
+    animation: slideFade 1.2s ease-out forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+}
+
+@keyframes slideFade {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
